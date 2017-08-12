@@ -191,7 +191,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>工欲善其事，必先利其器！所以想要快速学会Vue，环境搭建是必不可少的。(针对Mac OS开发环境)</p>
+<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h3 id="安装-brew"><a href="#安装-brew" class="headerlink" title="安装 brew"></a>安装 brew</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ /usr/bin/ruby -e <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
+<p>More Info: 详细了解<a href="https://brew.sh" target="_blank" rel="external">brew</a>的内容。</p>
+<h3 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ brew install nodejs</div></pre></td></tr></table></figure>
+<p>npm包管理工具是同node.js一同安装的</p>
+<h3 id="npm安装vue"><a href="#npm安装vue" class="headerlink" title="npm安装vue"></a>npm安装vue</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ npm install vue</div></pre></td></tr></table></figure>
+<h3 id="安装vue脚手架工具"><a href="#安装vue脚手架工具" class="headerlink" title="安装vue脚手架工具"></a>安装vue脚手架工具</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ npm install vue-cli -g</div></pre></td></tr></table></figure>
+<h3 id="安装webpack"><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ npm install webpack -g</div></pre></td></tr></table></figure>
+<p>More Info: -g是全局安装</p>
+<h2 id="新建vue项目"><a href="#新建vue项目" class="headerlink" title="新建vue项目"></a>新建vue项目</h2><h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ vue init webpack projectName</div></pre></td></tr></table></figure>
+<p>Nore Info: 创建时填入项目名、项目描述、作者信息，其他信息可以根据需要进行添加</p>
+<h3 id="进入项目目录"><a href="#进入项目目录" class="headerlink" title="进入项目目录"></a>进入项目目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ <span class="built_in">cd</span> projectName</div></pre></td></tr></table></figure>
+<h3 id="安装环境依赖"><a href="#安装环境依赖" class="headerlink" title="安装环境依赖"></a>安装环境依赖</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ npm install</div></pre></td></tr></table></figure>
+<h3 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~ npm run dev</div></pre></td></tr></table></figure>
+<p>More Info: 项目启动之后会自动切换到浏览器展示，Ctrl+C可以停止项目</p>
+
       
 
       
